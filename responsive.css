@@ -1,0 +1,152 @@
+@media (max-width:768px){
+
+    #menu-btn{
+        display: inline-block;
+    }
+
+    .top-header{
+        padding: 5px 0;
+    }
+    .top-header p{
+        padding: 0 5px;
+    }
+    
+    button{
+       padding: 5px;
+       font-size: 12px;
+    }
+
+
+    .header .navbar{
+        position: absolute;
+        top:100%; right: -100%;
+        background: #fff;
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
+    }
+
+    .header .navbar.active{
+        right:0;
+    }
+
+    .header .navbar a{
+        color:var(--black);
+        display: block;
+        margin:1.5rem;
+        padding:.5rem;
+        font-size: 2rem;
+    }
+
+   
+    .header .navbar span img{
+        display: none;
+    }
+
+    .header .search-form{
+        width: 90%;
+        right: 2rem;
+    }
+
+    .share a img, .lang img{
+        width: 22px;
+        
+    }
+
+    .header .icons div{
+        font-size: 1.5rem;
+    }
+
+    
+
+    .home{
+        background-position: right;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home .content h3{
+        font-size: 4.5rem;
+    }
+
+    .home .content p{
+        font-size: 2rem;
+    }
+
+}
+
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait){
+    .top-header{
+        display: none;
+    }
+
+    .header .logo  img{
+       height: 5rem;
+    }
+    .header .icons div{
+        font-size: 1.3rem;
+    }
+
+    
+    .share a img{
+        display: inline;
+        width: 15px; 
+    }
+    .share {
+        padding-left: 10px;
+    }
+
+    .header .navbar span img{
+        display: none;
+    }
+
+    .header .search-form{
+        width: 90%;
+        right: 2rem;
+    }
+
+     .lang img{
+        width: 15px;
+    }
+
+    .icons span{
+        display: none;
+    }
+
+    .lang span p{
+        padding: 0px 3px;
+        font-size: 12px;
+    }
+
+
+    .home{
+        background-position: right;
+        justify-content: center;
+        text-align: center;
+        overflow-x: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    .home .content h3{
+        font-size: 3.5rem;
+        color: #2b2b2b;
+    }
+
+    .home .content p{
+        font-size: 1.6rem;
+        color: #474747;
+        font-weight: 500;
+
+    }
+    
+}
+
+
+@media(max-width:450px){
+    html{
+        font-size: 50%;
+        }
+
+}
